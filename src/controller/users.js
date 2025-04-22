@@ -7,7 +7,13 @@ const history = fs.readFileSync(path.join(process.cwd(), "database/history.json"
 
 // Muhammadrizo
 const POST = (req, res) => {
-    res.send("salom")
+    try {        
+        if(!req.body)throw Error("body bosh")
+        const {fromUserId, toUserId, amount} = req.body
+        console.log(fromUserId, toUserId, amount)
+    } catch (error) {
+        res.send(error.message)
+    }
 }
 
 
