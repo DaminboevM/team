@@ -1,0 +1,18 @@
+[
+    {
+      "transactionId": "70b11d2b-b6c1-4e76-9c12-b4e23e0c79bb",
+      "fromUserId": "user10",
+      "toUserId": "user8",
+      "amount": 72.01,
+      "status": "success",
+      "timestamp": "2025-04-01T16:21:35.283501"
+    },
+    {
+      "transactionId": "fa194f6c-0216-4d8b-858e-6e12d57ce03c",
+      "fromUserId": "user7",
+      "toUserId": "user1",
+      "amount": 480.91,
+      "status": "success",
+      "timestamp": "2025-03-30T16:21:35.283494"
+    }
+]  

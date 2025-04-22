@@ -1,0 +1,14 @@
+[
+    {
+      "userId": "user1",
+      "balance": 4241.68,
+      "monthlyLimit": 3000.0,
+      "usedLimit": 1958.3
+    },
+    {
+      "userId": "user2",
+      "balance": 2330.07,
+      "monthlyLimit": 3000.0,
+      "usedLimit": 1347.92
+    }
+]  
