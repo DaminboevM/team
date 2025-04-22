@@ -1,6 +1,5 @@
 import { Router } from "express"
 import Users from "../controller/users.js"
-import { escape } from "querystring"
 
 const router = Router()
 

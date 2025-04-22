@@ -6,7 +6,9 @@ const history = fs.readFileSync(path.join(process.cwd(), "database/history.json"
 
 
 // Muhammadrizo
-const POST = (req, res) => {}
+const POST = (req, res) => {
+    res.send("salom")
+}
 
 
 // Ozodbek
