@@ -1,62 +1,62 @@
 [
-    {
-      "userId": 1,
-      "balance": 4241.68,
-      "monthlyLimit": 3000.0,
-      "usedLimit": 1958.3
-    },
-    {
-      "userId": 2,
-      "balance": 2330.07,
-      "monthlyLimit": 3000.0,
-      "usedLimit": 1347.92
-    },
-    {
-      "userId": 3,
-      "balance": 1000.0,
-      "monthlyLimit": 3000.0,
-      "usedLimit": 0.0
-    },
-    {
-      "userId": 4,
-      "balance": 500.0,
-      "monthlyLimit": 3000.0,
-      "usedLimit": 0.0
-    },
-    {
-      "userId": 5,
-      "balance": 1500.0,
-      "monthlyLimit": 3000.0,
-      "usedLimit": 0.0
-    },
-    {
-      "userId": 6,
-      "balance": 2000.0,
-      "monthlyLimit": 3000.0,
-      "usedLimit": 0.0
-    },
-    {
-      "userId": 7,
-      "balance": 2500.0,
-      "monthlyLimit": 3000.0,
-      "usedLimit": 100.5
-    },
-    {
-      "userId": 8,
-      "balance": 3000.0,
-      "monthlyLimit": 3000.0,
-      "usedLimit": 200.75
-    },
-    {
-      "userId": 9,
-      "balance": 3500.0,
-      "monthlyLimit": 3000.0,
-      "usedLimit": 150.25
-    },
-    {
-      "userId": 10,
-      "balance": 4000.0,
-      "monthlyLimit": 3000.0,
-      "usedLimit": 50.5
-    }
-]  
+  {
+    "userId": 1,
+    "balance": 3741.6800000000003,
+    "monthlyLimit": 3000,
+    "usedLimit": 1958.3
+  },
+  {
+    "userId": 2,
+    "balance": 2830.07,
+    "monthlyLimit": 3000,
+    "usedLimit": 1347.92
+  },
+  {
+    "userId": 3,
+    "balance": 1000,
+    "monthlyLimit": 3000,
+    "usedLimit": 0
+  },
+  {
+    "userId": 4,
+    "balance": 500,
+    "monthlyLimit": 3000,
+    "usedLimit": 0
+  },
+  {
+    "userId": 5,
+    "balance": 1500,
+    "monthlyLimit": 3000,
+    "usedLimit": 0
+  },
+  {
+    "userId": 6,
+    "balance": 2000,
+    "monthlyLimit": 3000,
+    "usedLimit": 0
+  },
+  {
+    "userId": 7,
+    "balance": 2500,
+    "monthlyLimit": 3000,
+    "usedLimit": 100.5
+  },
+  {
+    "userId": 8,
+    "balance": 3000,
+    "monthlyLimit": 3000,
+    "usedLimit": 200.75
+  },
+  {
+    "userId": 9,
+    "balance": 3500,
+    "monthlyLimit": 3000,
+    "usedLimit": 150.25
+  },
+  {
+    "userId": 10,
+    "balance": 4000,
+    "monthlyLimit": 3000,
+    "usedLimit": 50.5
+  }
+]

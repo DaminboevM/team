@@ -43,12 +43,36 @@ const POST = (req, res) => {
 }
 
 
+
+
 // Ozodbek
 const GET_U = (req, res) => {}
 
 
+
+
+
 // Abrorbek
-const GET_H = (req, res) => {}
+// git bn muamo chiqani uchun abrorbek aka gitdan tashay olmadi va kodda ishlaganda bosh arry qaytaryapti muamoni topa olmadik
+const GET_H = (req, res) => {
+    try {
+        const { userId } = req.params
+        const matn = JSON.parse(history)
+
+        const text = matn.filter(t => {
+            if(t.fromUserId == userId){
+                return t.fromUserId
+            }
+        })
+
+        res.status(200).json(`salom ${text}`)
+    } catch (error) {
+        res.status(500).json({ message: "xatolik yuz berdi" })
+    }
+}
+
+
+
 
 
 
