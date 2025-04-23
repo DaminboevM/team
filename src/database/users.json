@@ -1,14 +1,62 @@
 [
-    {
-      "userId": "user1",
-      "balance": 4241.68,
-      "monthlyLimit": 3000.0,
-      "usedLimit": 1958.3
-    },
-    {
-      "userId": "user2",
-      "balance": 2330.07,
-      "monthlyLimit": 3000.0,
-      "usedLimit": 1347.92
-    }
-]  
+  {
+    "userId": 1,
+    "balance": 4241.68,
+    "monthlyLimit": 3000.0,
+    "usedLimit": 1958.3
+  },
+  {
+    "userId": 2,
+    "balance": 2330.07,
+    "monthlyLimit": 3000.0,
+    "usedLimit": 1347.92
+  },
+  {
+    "userId": 3,
+    "balance": 5120.45,
+    "monthlyLimit": 4000.0,
+    "usedLimit": 2100.5
+  },
+  {
+    "userId": 4,
+    "balance": 1890.32,
+    "monthlyLimit": 2500.0,
+    "usedLimit": 1200.0
+  },
+  {
+    "userId": 5,
+    "balance": 3050.78,
+    "monthlyLimit": 3500.0,
+    "usedLimit": 1800.25
+  },
+  {
+    "userId": 6,
+    "balance": 2780.90,
+    "monthlyLimit": 3000.0,
+    "usedLimit": 1500.75
+  },
+  {
+    "userId": 7,
+    "balance": 4500.00,
+    "monthlyLimit": 5000.0,
+    "usedLimit": 2500.0
+  },
+  {
+    "userId": 8,
+    "balance": 3200.67,
+    "monthlyLimit": 4000.0,
+    "usedLimit": 2000.33
+  },
+  {
+    "userId": 9,
+    "balance": 2100.45,
+    "monthlyLimit": 3000.0,
+    "usedLimit": 1000.5
+  },
+  {
+    "userId": 10,
+    "balance": 3900.12,
+    "monthlyLimit": 4500.0,
+    "usedLimit": 2200.75
+  }
+]
