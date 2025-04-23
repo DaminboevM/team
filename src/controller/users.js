@@ -77,7 +77,42 @@ const GET_H = (req, res) => {
 
 
 // Abdulloh
-const PUT = (req, res) => {}
+const PUT = (req, res) => {
+    const usersPath = path.join(process.cwd(), "database/users.json");
+
+    const { userId } = req.params;
+    const { newLimit } = req.body;
+    
+    if (!newLimit || typeof newLimit !== "number") {
+      return res.status(400).json({
+        status: "failed",
+        message: "Invalid limit value."
+      });
+    }
+    
+    const users = JSON.parse(fs.readFileSync(usersPath, "utf-8"));
+    const userIdNum = parseInt(userId);
+    
+    const user = users.find(u => u.userId === userIdNum);
+    
+    if (!user) {
+      return res.status(404).json({
+        status: "failed",
+        message: "User not found."
+      });
+    }
+    
+    user.monthlyLimit = newLimit;
+    
+    fs.writeFileSync(usersPath, JSON.stringify(users, null, 2));
+    
+    res.status(200).json({
+      userId: user.userId,
+      newLimit: newLimit,
+      message: "Monthly limit updated successfully."
+    });
+
+}
 
 
 export default {
